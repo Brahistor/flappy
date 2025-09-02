@@ -1,21 +1,21 @@
 {
   "ads": {
     "showAds": true,
-    "clicksBeforeInterstitial": 3,
+    "clicksBeforeInterstitial": 1,
     "mintegral": {
-      "appId": "YOUR_MINTEGRAL_APP_ID",
-      "appKey": "YOUR_MINTEGRAL_APP_KEY",
+      "appId": "408514",
+      "appKey": "1830ca60e9705834759abc6bbe80a5a5",
       "banner": {
-        "placementId": "YOUR_BANNER_PLACEMENT_ID",
-        "unitId": "YOUR_BANNER_UNIT_ID"
+        "placementId": "2767952",
+        "unitId": "4949545"
       },
       "inter": {
-        "placementId": "YOUR_INTER_PLACEMENT_ID",
-        "unitId": "YOUR_INTER_UNIT_ID"
+        "placementId": "2767954",
+        "unitId": "4949547"
       },
       "rewarded": {
-        "placementId": "YOUR_REWARD_PLACEMENT_ID",
-        "unitId": "YOUR_REWARD_UNIT_ID"
+        "placementId": "2767956",
+        "unitId": "4949549"
       }
     }
   },
