@@ -1,0 +1,13 @@
+{
+  "ads": {
+    "showAds": true,
+    "clicksBeforeInterstitial": 4,
+    "mintegral": {
+      "appId": "YOUR_APP_ID",
+      "appKey": "YOUR_APP_KEY",
+      "banner":   {"placementId": "PL_xxx", "unitId": "UNIT_banner_xxx"},
+      "inter":    {"placementId": "PL_xxx", "unitId": "UNIT_inter_xxx"},
+      "rewarded": {"placementId": "PL_xxx", "unitId": "UNIT_reward_xxx"}
+    }
+  }
+}
