@@ -1,24 +1,26 @@
 {
   "ads": {
-    "showAds": true,
-    "clicksBeforeInterstitial": 1,
-
     "mintegral": {
       "appId": "144002",
       "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
-
-      "placements": {
-        "banner":   { "placementId": "1010694", "unitId": "2677210" },   
-        "inter":    { "placementId": "290653", "unitId": "462374"  },   
-        "rewarded": { "placementId": "290651", "unitId": "462372"  }    
+      "banner": {
+        "placementId": "1010694",
+        "unitId": "2677210"
+      },
+      "inter": {
+        "placementId": "290653",
+        "unitId": "462374"
+      },
+      "rewarded": {
+        "placementId": "290651",
+        "unitId": "462372"
       }
     }
   },
-
   "store": {
     "rateUrl": "amzn://apps/android?p=com.brahistor.flappy",
     "rateWeb": "https://www.amazon.com/gp/mas/dl/android?p=com.brahistor.flappy",
     "moreAppsUrl": "https://www.amazon.com/s?i=mobile-apps&rh=p_4%3ABRAHISTORE",
-    "shareText": "جرب لعبة Rocket Runner 🚀 ممتعة ومجانية على Amazon Appstore!"
+    "shareText": "🚀 جرب لعبة Rocket Runner مجانا على Amazon Appstore!"
   }
 }
