@@ -3,19 +3,19 @@
     "showAds": true,
     "clicksBeforeInterstitial": 1,
     "mintegral": {
-      "appId": "408514",
-      "appKey": "1830ca60e9705834759abc6bbe80a5a5",
+      "appId": "144002",
+      "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
       "banner": {
-        "placementId": "2767952",
-        "unitId": "4949545"
+        "placementId": "1010694",
+        "unitId": "2677203"
       },
       "inter": {
-        "placementId": "2767954",
-        "unitId": "4949547"
+        "placementId": "290653",
+        "unitId": "1542103"
       },
       "rewarded": {
-        "placementId": "2767956",
-        "unitId": "4949549"
+        "placementId": "290651",
+        "unitId": "1542101"
       }
     }
   },
