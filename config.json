@@ -2,23 +2,19 @@
   "ads": {
     "showAds": true,
     "clicksBeforeInterstitial": 1,
+
     "mintegral": {
       "appId": "144002",
       "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
-      "banner": {
-        "placementId": "1010694",
-        "unitId": "2677203"
-      },
-      "inter": {
-        "placementId": "290653",
-        "unitId": "462374"
-      },
-      "rewarded": {
-        "placementId": "290651",
-        "unitId": "1542101"
+
+      "placements": {
+        "banner":   { "placementId": "1010694", "unitId": "2677210" },   // Traditional UnitId للبـانر
+        "inter":    { "placementId": "290653", "unitId": "462374"  },   // Traditional UnitId للـ New Interstitial
+        "rewarded": { "placementId": "290651", "unitId": "462372"  }    // Traditional UnitId للـ Rewarded
       }
     }
   },
+
   "store": {
     "rateUrl": "amzn://apps/android?p=com.brahistor.flappy",
     "rateWeb": "https://www.amazon.com/gp/mas/dl/android?p=com.brahistor.flappy",
