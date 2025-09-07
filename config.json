@@ -1,26 +1,24 @@
 {
-  "ads": {
-    "mintegral": {
-      "appId": "144002",
-      "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
-      "banner": {
-        "placementId": "1010694",
-        "unitId": "2677210"
-      },
-      "inter": {
-        "placementId": "290653",
-        "unitId": "462374"
-      },
-      "rewarded": {
-        "placementId": "290651",
-        "unitId": "462372"
-      }
-    }
+  "showAds": true,
+  "clicksBeforeInterstitial": 2,
+
+  "iron": {
+    "appKey": "YOUR_APP_KEY_HERE",
+    "enableRV": true,
+    "enableIS": true,
+    "enableBN": true,
+    "userId": "test_user_123"
   },
-  "store": {
-    "rateUrl": "amzn://apps/android?p=com.brahistor.flappy",
-    "rateWeb": "https://www.amazon.com/gp/mas/dl/android?p=com.brahistor.flappy",
-    "moreAppsUrl": "https://www.amazon.com/s?i=mobile-apps&rh=p_4%3ABRAHISTORE",
-    "shareText": "🚀 جرب لعبة Rocket Runner مجانا على Amazon Appstore!"
+
+  "banner": {
+    "size": "BANNER",
+    "position": "BOTTOM",
+    "autoLoad": true
+  },
+
+  "units": {
+    "interstitialPlacement": "DefaultInterstitial",
+    "rewardedPlacement": "DefaultRewardedVideo",
+    "bannerPlacement": "DefaultBanner"
   }
 }
