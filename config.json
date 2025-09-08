@@ -3,7 +3,7 @@
   "clicksBeforeInterstitial": 2,
 
   "iron": {
-    "appKey": "85460dcd",
+    "appKey": "85460dcd", 
     "enableRV": true,
     "enableIS": true,
     "enableBN": true,
@@ -12,19 +12,13 @@
 
   "banner": {
     "size": "BANNER",
-    "position": "BOTTOM",       
-    "autoLoad": true,
-    "bottomMarginDp": 56       
+    "position": "BOTTOM",
+    "autoLoad": true
   },
 
   "units": {
     "interstitialPlacement": "DefaultInterstitial",
     "rewardedPlacement": "DefaultRewardedVideo",
     "bannerPlacement": "DefaultBanner"
-  },
-
-  "timing": {
-    "firstInterstitialDelaySec": 10,  
-    "interstitialCooldownSec": 5     
   }
 }
