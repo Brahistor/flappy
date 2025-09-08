@@ -3,7 +3,7 @@
   "clicksBeforeInterstitial": 2,
 
   "iron": {
-    "appKey": "85460dcd", 
+    "appKey": "85460dcd",
     "enableRV": true,
     "enableIS": true,
     "enableBN": true,
@@ -12,13 +12,19 @@
 
   "banner": {
     "size": "BANNER",
-    "position": "BOTTOM",
-    "autoLoad": true
+    "position": "BOTTOM",       // أو "TOP"
+    "autoLoad": true,
+    "bottomMarginDp": 56        // باش يطلع فوق الـ navbar
   },
 
   "units": {
     "interstitialPlacement": "DefaultInterstitial",
     "rewardedPlacement": "DefaultRewardedVideo",
     "bannerPlacement": "DefaultBanner"
+  },
+
+  "timing": {
+    "firstInterstitialDelaySec": 10,   // أول إنتـر بعد 10 ثواني من فتح التطبيق
+    "interstitialCooldownSec": 60      // انتظار 60 ثانية بين عرضين
   }
 }
