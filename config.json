@@ -12,9 +12,9 @@
 
   "banner": {
     "size": "BANNER",
-    "position": "BOTTOM",       // أو "TOP"
+    "position": "BOTTOM",       
     "autoLoad": true,
-    "bottomMarginDp": 56        // باش يطلع فوق الـ navbar
+    "bottomMarginDp": 56       
   },
 
   "units": {
@@ -24,7 +24,7 @@
   },
 
   "timing": {
-    "firstInterstitialDelaySec": 10,   // أول إنتـر بعد 10 ثواني من فتح التطبيق
-    "interstitialCooldownSec": 60      // انتظار 60 ثانية بين عرضين
+    "firstInterstitialDelaySec": 10,  
+    "interstitialCooldownSec": 60     
   }
 }
