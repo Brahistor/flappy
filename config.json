@@ -25,6 +25,6 @@
 
   "timing": {
     "firstInterstitialDelaySec": 10,  
-    "interstitialCooldownSec": 60     
+    "interstitialCooldownSec": 5     
   }
 }
